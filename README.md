@@ -1,4 +1,4 @@
-# Diferenciar Ordinales Primero y Último
+# Diferenciar Ordinales Primero, Segundo y Último
 
 ![Juego de los círculos de colores](https://axelcotongutierrez.github.io/learningmathematicas/assets/images//posts/12Ultimo/circulos.jpg)
 
