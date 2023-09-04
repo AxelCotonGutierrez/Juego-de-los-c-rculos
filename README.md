@@ -1,6 +1,6 @@
 # Diferenciar Ordinales Primero y Último
 
-![Juego de los círculos de colores](https://axelcotongutierrez.github.io/learningmathematicas/assets/images//posts/Orden3/circulos.jpg)
+![Juego de los círculos de colores](https://axelcotongutierrez.github.io/learningmathematicas/assets/images//posts/12Ultimo/circulos.jpg)
 
 Dentro del blog: https://axelcotongutierrez.github.io/learningmathematicas/
 
