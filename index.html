@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Juego de los Círculos de Colores</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="icon" href="icon.png" type="image/png">
+</head>
+<body>
+	<header>
+		<a href="https://axelcotongutierrez.github.io/learningmathematicas/">
+			<img src="https://axelcotongutierrez.github.io/learningmathematicas/assets/images//top.jpg" alt="Blog Mathematica" style="display: block; margin: 0 auto; width: 100%; height: auto;">
+		</a>
+	</header>
+	<h1>Juego de los Círculos de Colores</h1>
+	<div class="container2">
+		<span class="textosuperior">¿Eres capaz de saber de qué color es el círculo que te preguntan durante cinco turnos?</span>
+		<button id="play-again-button">Comenzar</button>
+	</div>
+	<div class="container">
+		<div id="circles-container">
+			<div id="circle1" class="circle"></div>
+			<div id="circle2" class="circle"></div>
+			<div id="circle3" class="circle"></div>
+		</div>
+		<div id="question"></div>
+		<div id="buttons-container">
+			<button id="button1" class="guess-button"></button>
+			<button id="button2" class="guess-button"></button>
+			<button id="button3" class="guess-button"></button>
+		</div>
+        <div class="msj" id="result"></div>
+        <p id="score"></p>
+	</div>
+
+	<script src="juego.js"></script>
+	<br>
+	<br>
+</body>
+</html>
