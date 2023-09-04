@@ -1,3 +1,5 @@
+// Axel Cotón Gutiérrez Copyright 2023
+
 // Colores disponibles
 var colores = ['red', 'green', 'blue', 'yellow', 'pink', 'orange'];
 
