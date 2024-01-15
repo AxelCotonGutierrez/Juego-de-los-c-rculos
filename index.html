@@ -5,42 +5,41 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Juego de los Círculos de Colores</title>
 	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="nav.css">
 	<link rel="icon" href="icon.png" type="image/png">
 </head>
 <body>
+
 	<header>
+		<div class="menu">
+			<button class="menu-toggle">☰</button>
+			<ul><li><a href="https://axelcotongutierrez.github.io/learningmathematicas/">
+				<img src="cb.jpg"> 
+			</a></li>
+				<li><a href="/learningmathematicas/projects/Cursos/">Cursos y Materias</a></li>
+				<li><a href="/learningmathematicas/projects/Niveles/">Niveles</a></li>
+				<li><a href="/learningmathematicas/">Entradas</a></li>
+				<li><a href="/learningmathematicas/tags">Etiquetas</a></li>
+				<li><a href="/learningmathematicas/about">Blog</a></li>
+				<li><a href="#">Utilidades</a>
+					<ul>
+						<li><a href="/learningmathematicas/projects/Utilidades/Glosario.html">Glosario</a></li>
+						<li><a href="/learningmathematicas/projects/Utilidades/Programacion.html">Programación</a></li>
+						<li><a href="/learningmathematicas/projects/Utilidades/Soroban.html">Soroban</a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
 		<a href="https://axelcotongutierrez.github.io/learningmathematicas/">
 			<img src="https://axelcotongutierrez.github.io/learningmathematicas/assets/images//top.jpg" alt="Blog Mathematica" style="display: block; margin: 0 auto; width: 100%; height: auto;">
-		</a>
-	</header>
-	<center> 
-		<table >
-		<tr>
-			<td valign="middle">
-				<div style="text-align: center;">
-					<h1>Juego de los Círculos de Colores</h1>
-					</div>
-			</td>
-			<td valign="middle">
-				<div style="text-align: center;">
-					<a title="Matemáticas" href="/learningmathematicas/assets/images/pages/figuras/Matematicas.png">
-					  <img class="center-block img-responsive" width="50" alt="Matemáticas" src="/learningmathematicas/assets/images/pages/figuras/Matematicas.png">
-					</a>
-					</div>
-			</td>
-			<td valign="middle">
-				<div style="text-align: center;">
-					<a title="Infantil" href="/learningmathematicas/assets/images/pages/figuras/infantil.png">
-					  <img class="center-block img-responsive" width="50" alt="Infantil" src="/learningmathematicas/assets/images/pages/figuras/infantil.png">
-					</a>
-					</div>
-			</td>
-			
-		</tr>
-	  </table></center>
+		  </a>
+		  <h1 style="text-align: center;">JUEGO DE LOS CÍRCULOS DE COLORES</h1>
+		</header>
+	  <br>
+	
 	
 	<div class="container2">
-		<span class="textosuperior">¿Eres capaz de saber de qué color es el círculo que te preguntan durante cinco turnos?</span>
+		<span class="pregunta">¿Eres capaz de saber de qué color es el círculo que te preguntan durante cinco turnos?</span>
 		<button id="play-again-button">Comenzar</button>
 	</div>
 	<div class="container">
@@ -56,11 +55,18 @@
 			<button id="button3" class="guess-button"></button>
 		</div>
         <div class="msj" id="result"></div>
+		<br>
         <p id="score"></p>
 	</div>
 
 	<script src="juego.js"></script>
 	<br>
 	<br>
+	<footer class="footer">
+		<ul class="footer-links">
+			<li><a href="http://github.com/AxelCotonGutierrez"> <img src="githubinverseicon.jpg"></a></li>
+			<li><a href="https://www.youtube.com/@learningmathematicas"> <img src="youtubeinverseicon.jpg"></i></a></li>
+		</ul>
+	</footer>
 </body>
 </html>
