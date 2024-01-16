@@ -8,7 +8,7 @@ Juego para Infantil para aprender diferenciar entre primero y último.
 
 Puedes probar el juego en esta url:
 
-https://axelcotongutierrez.github.io/Orden3/
+https://axelcotongutierrez.github.io/Juego-de-los-c-rculos/
 
 ¡Bienvenido al emocionante juego "de los Círculos de colores"! ¿Estás listo para poner a prueba tu percepción y habilidades de observación mientras te sumerges en un desafío lleno de colores? Prepárate para retar tu mente y demostrar que eres un experto en distinguir colores en este fascinante juego.
 
