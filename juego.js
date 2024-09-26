@@ -175,13 +175,3 @@ for (var i = 0; i < botonesRespuesta.length; i++) {
 // Generar la primera pregunta y colores aleatorios
 generarPreguntaYColores();
 
-// Navegaciòn"  
- 
-document.addEventListener('DOMContentLoaded', function() {
-  var menuToggle = document.querySelector('.menu-toggle');
-  var menu = document.querySelector('.menu');
-      
-  menuToggle.addEventListener('click', function() {
-  menu.classList.toggle('active');
-  });
-});
